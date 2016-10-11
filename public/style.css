@@ -1,0 +1,16 @@
+.columnclass {
+    display: flex;
+    width: 500px;
+    /*border: solid 1px black;*/
+}
+
+.cell {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: solid 1px black;
+}
+#thegrid {
+    display: flex;
+    flex-direction: column;
+}

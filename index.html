@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://underscorejs.org/underscore.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="http://backbonejs.org/backbone.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <p>Set a Username then press the locate new customer button to play.</p>
+    <p>Press the coresponding buttons to move to a customer location and pick them up.</p>
+    <p>When you pick up a customer you will be awarded more fuel.</p>
+    <section id="displays">
+        <input type=text id="username"><button id="set">setname</button>
+        <h2 id="display-username"></h2>
+        <p id = "x-pos">x</p>
+        <p id = "y-pos">y</p>
+        <p id="fuel">f</p>
+        <p id ="kcustomer">c</p>
+    </section>
+    <button id="getcustomer">Locate New Customer</button>
+    <button id="Up">Up</button>
+    <button id="Down">Down</button>
+    <button id="Left">Left</button>
+    <button id="Right">Right</button>
+    <section id="thegrid">
+    </section>
+    <button id="generategrid">Generate Grid</button>
+</body>
+
+</html>
